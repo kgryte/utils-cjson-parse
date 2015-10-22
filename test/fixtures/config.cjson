@@ -1,0 +1,11 @@
+{
+	"beep": "boop",
+
+	// comment...
+	"value": 5,
+
+	/**
+	* Multiline comment
+	*/
+	"str": "hello world"
+}

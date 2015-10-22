@@ -1,0 +1,55 @@
+{
+  "name": "utils-cjson-parse",
+  "version": "0.0.0",
+  "description": "Attempts to parse an input string as commented JSON.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgryte/utils-cjson-parse.git"
+  },
+  "keywords": [
+    "utils",
+    "util",
+    "utilities",
+    "utility",
+    "json",
+    "cjson",
+    "commented",
+    "comments",
+    "parse",
+    "try",
+    "trap",
+    "catch",
+    "config"
+  ],
+  "bugs": {
+    "url": "https://github.com/kgryte/utils-cjson-parse/issues"
+  },
+  "dependencies": {
+    "cjson": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
