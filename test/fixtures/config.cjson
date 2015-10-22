@@ -1,11 +1,11 @@
 {
 	"beep": "boop",
 
-	// comment...
+	// Comment...
 	"value": 5,
 
 	/**
-	* Multiline comment
+	* Multiline comment.
 	*/
 	"str": "hello world"
 }
